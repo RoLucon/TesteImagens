@@ -11,7 +11,7 @@ import SwiftUI
 struct Responsividade_da_ImagemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ViewModel())
         }
     }
 }
